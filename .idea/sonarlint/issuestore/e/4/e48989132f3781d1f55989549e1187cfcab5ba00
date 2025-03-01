@@ -1,0 +1,18 @@
+
+š
+java:S1104"RMake extent a static final constant or non-public and provide accessors if needed.(ÆÍ¿…øÿÿÿÿ8šìÌ¶Ô2J$5a1bd9e3-219a-4d90-8e1e-aea48ef84333
+¡
+java:S1104"YMake reporterAgent a static final constant or non-public and provide accessors if needed.(î€™ºùÿÿÿÿ8šìÌ¶Ô2J$41d0d569-6478-42ba-bcfc-90570f576b15
+œ
+java:S1104"TMake testNode a static final constant or non-public and provide accessors if needed.(íâç¼ûÿÿÿÿ8šìÌ¶Ô2J$0070dae4-307c-423b-93c1-234869b73936
+t
+java:S1444",Make this "public static extent" field final(ÆÍ¿…øÿÿÿÿ8šìÌ¶Ô2J$c0bf60c3-313c-4e74-bcce-06ca4f601b32
+{
+java:S1444"3Make this "public static reporterAgent" field final(î€™ºùÿÿÿÿ8šìÌ¶Ô2J$ffc1650a-a380-47a2-b10e-169765dfb16a
+v
+java:S1444".Make this "public static testNode" field final(íâç¼ûÿÿÿÿ8šìÌ¶Ô2J$698230df-d229-4140-80a6-d5f6f6978d6a
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†®¨êúÿÿÿÿ8œìÌ¶Ô2J$966c88eb-fda2-46ee-a075-e916548aba5d
+‡
+java:S2259*"DA "NullPointerException" could be thrown; "extent" is nullable here.(ÿ‡­ž8ö·Ü»Ô2J$048740a6-915b-4f32-ac1c-459fbb386874
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(ýóÏ¿üÿÿÿÿ8±ìÌ¶Ô2J$676b391a-776e-495c-9598-b32608456920

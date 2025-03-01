@@ -1,0 +1,10 @@
+
+š
+java:S1192 "RDefine a constant instead of duplicating this literal "setDriverInstance" 3 times.(‰©¢„úÿÿÿÿ8‹›˜ÀÔ2J$7b8276d4-60d8-47be-bdcc-78be7aa77c82
+Å
+java:S1130"Remove the declaration of thrown exception 'com.media_net.utils.ApplicationException', as it cannot be thrown from method's body.(¾ï¯—8î›˜ÀÔ2J$cd97f60e-bf8d-406e-a017-4c097de10a38
+„
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(‚»·Ú8ÿ°ş½Ô2J$491fa518-338d-4266-b352-4eea476ddc02
+„
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(«óä¯8ƒ±ş½Ô2J$e112b695-57f2-4547-94d3-51598edea8f9
+r	java:S1060"+Replace this use of System.out by a logger.(·ˆÍ±ıÿÿÿÿ8´±ş½Ô2J$1eb37a28-1ff2-4aa5-b0c8-33c0bdb4cf61

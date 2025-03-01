@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.media_net.utils.Listeners"></listener>
+    </listeners>
+    <test name="App Automation" thread-count="1">
+        <classes>
+            <class name="com.media_net.tests.RegressionTest">
+                <methods>
+                    <include name="onBoardingTest"/>
+                    <include name="textNodeCreationTest"/>
+                    <include name="toDoListCreationTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
