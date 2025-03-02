@@ -24,7 +24,7 @@ public class ExtentReport {
     public static void setUpReport() {
         if (Objects.isNull(extent)) {
             extent = new ExtentReports();
-            reporterAgent = new ExtentSparkReporter("target/report/extent.html");
+            reporterAgent = new ExtentSparkReporter(System.getProperty("usr.dir") + "/index.html");
             reporterAgent.config().setReportName("App Automation Report");
             reporterAgent.config().setDocumentTitle("Extent_Report");
             reporterAgent.config().setTheme(Theme.DARK);

@@ -66,9 +66,10 @@ public class ToDoPage extends BasePage {
     }
 
     public void chooseBackGroundColor() {
-        jumpToFrameById(changeBackgroundPopUpFrame);
+        waitForElementVisibility(backgroundColorOptionIcon);
+//        jumpToFrameById(changeBackgroundPopUpFrame);
         backgroundColorOptionIcon.click();
         hideKeyboard();
-        backToDefaultFrame();
+//        backToDefaultFrame();
     }
 }

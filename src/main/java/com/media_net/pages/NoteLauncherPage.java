@@ -51,6 +51,7 @@ public class NoteLauncherPage extends BasePage {
     }
 
     public void clickOnPlusIcon() {
+        waitForElementVisibility(plusIcon);
         plusIcon.click();
     }
 
@@ -64,7 +65,7 @@ public class NoteLauncherPage extends BasePage {
 
     public void verifyMyNotesPageTitle() throws ApplicationException {
         if (waitForElementVisibility(pageTitle))
-            Assert.assertEquals(pageTitle, "My Notes", "Page title is not visible");
+            Assert.assertEquals(pageTitle.getText(), "My Notes", "Page title is not visible");
         else {
             throw new ApplicationException("verifyCreatedNoteTitle", "Title is not visible");
         }

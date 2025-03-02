@@ -35,6 +35,7 @@ public class HomePage extends BasePage {
     }
 
     public void clickOnNotesLauncherOption() {
+        waitForElementVisibility(noteLauncherTextView);
         noteLauncherTextView.click();
     }
 
