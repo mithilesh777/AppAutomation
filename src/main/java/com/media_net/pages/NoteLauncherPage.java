@@ -60,6 +60,8 @@ public class NoteLauncherPage extends BasePage {
     }
 
     public void clickOnCreateATextNote() {
+        waitForElementVisibility(createTextNoteOption);
+        createTextNoteOption.click();
         createTextNoteOption.click();
     }
 

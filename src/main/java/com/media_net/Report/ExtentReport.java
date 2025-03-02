@@ -22,14 +22,12 @@ public class ExtentReport {
     public static ExtentTest testNode;
 
     public static void setUpReport() {
-        if (Objects.isNull(extent)) {
             extent = new ExtentReports();
-            reporterAgent = new ExtentSparkReporter(System.getProperty("usr.dir") + "/index.html");
+            reporterAgent = new ExtentSparkReporter(System.getProperty("user.dir") + "/extentReport.html");
             reporterAgent.config().setReportName("App Automation Report");
             reporterAgent.config().setDocumentTitle("Extent_Report");
             reporterAgent.config().setTheme(Theme.DARK);
             extent.attachReporter(reporterAgent);
-        }
     }
 
     public static void createTest(String testCaseName) {
@@ -38,9 +36,7 @@ public class ExtentReport {
     }
 
     public static void tearDownReport() {
-        if (Objects.isNull(extent)) {
             extent.flush();
             ExtentManager.remove();
-        }
     }
 }
